@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Quiz hub</title>
+    <title>Nellaverse</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,52 +13,9 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="wrap">
-      <header class="site-header">
-        <h1>Quizzes</h1>
-        <p>
-          Text quizzes load from <code>data/quiz-*.json</code>, pair quizzes from <code>data/match-*.json</code>, grouping quizzes from <code>data/group-*.json</code>, and
-          quick-answer quizzes from <code>data/quick-*.json</code>. Opening files from disk uses embedded copies in
-          <code>js/quizzes-data.js</code>, <code>js/match-quizzes-data.js</code>, <code>js/group-quizzes-data.js</code>, and <code>js/quick-quizzes-data.js</code>.
-        </p>
-      </header>
-
-      <section class="hub-section" aria-labelledby="hub-text-title">
-        <h2 id="hub-text-title" class="hub-section-title">Type your answers</h2>
-        <p class="hub-section-desc">Enter one answer at a time and press Submit; correct and wrong tries are listed below each question.</p>
-        <div id="quiz-grid" class="quiz-grid">
-          <p class="loading">Loading…</p>
-        </div>
-      </section>
-
-      <section class="hub-section" aria-labelledby="hub-match-title">
-        <h2 id="hub-match-title" class="hub-section-title">Connect pairs</h2>
-        <p class="hub-section-desc">Click a term in each group, then compare. Correct pairs move to “Matched pairs”.</p>
-        <div id="match-quiz-grid" class="quiz-grid">
-          <p class="loading">Loading…</p>
-        </div>
-      </section>
-
-      <section class="hub-section" aria-labelledby="hub-group-title">
-        <h2 id="hub-group-title" class="hub-section-title">Classify items</h2>
-        <p class="hub-section-desc">Pick a category button for each row. Correct is green with a check mark, wrong is red with an X, and each row reveals an explanation.</p>
-        <div id="group-quiz-grid" class="quiz-grid">
-          <p class="loading">Loading…</p>
-        </div>
-      </section>
-
-      <section class="hub-section" aria-labelledby="hub-quick-title">
-        <h2 id="hub-quick-title" class="hub-section-title">Quick single answers</h2>
-        <p class="hub-section-desc">For each line, type the exact target phrase. Correct turns green; wrong attempts are kept below in red.</p>
-        <div id="quick-quiz-grid" class="quiz-grid">
-          <p class="loading">Loading…</p>
-        </div>
-      </section>
-    </div>
-    <script src="js/quizzes-data.js"></script>
-    <script src="js/match-quizzes-data.js"></script>
-    <script src="js/group-quizzes-data.js"></script>
-    <script src="js/quick-quizzes-data.js"></script>
-    <script src="js/index.js"></script>
+    <main class="wrap">
+      <div id="app-root" class="nellaverse-root"></div>
+    </main>
+    <script src="js/nellaverse.js"></script>
   </body>
 </html>
