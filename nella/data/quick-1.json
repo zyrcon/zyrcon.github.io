@@ -1,0 +1,20 @@
+{
+  "id": "quick-1",
+  "title": "Negative songs",
+  "prompt": "I did something bad with these song titles. Write the correct name.",
+  "pairs": [
+    ["Shut-up later", "Speak Now"],
+    ["Front to January", "Back to December"],
+    ["Fat", "Skinny"],
+    ["The Taker", "The Giver"],
+    ["I Hate You, I'm Not Sorry", "I Love You, I'm Sorry"],
+    ["Rise alive", "Drop dead"],
+    ["Womangrownup", "Manchild"],
+    ["Youngest Son", "Eldest Daughter"],
+    ["Happy ugly comic", "Sad beautiful tragic"],
+    ["The Biggest Woman Who Never Died", "The Smallest Man Who Ever Lived"],
+    ["But Mommy I Hate Him", "But Daddy I Love Him"],
+    ["Up Good", "Down Bad"],
+    ["Everybody's Daughter", "Nobody's Son"]
+  ]
+}

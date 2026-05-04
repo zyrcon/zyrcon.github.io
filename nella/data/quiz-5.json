@@ -1,0 +1,16 @@
+{
+  "id": "quiz-5",
+  "title": "Swiss tongues",
+  "prompt": "Switzerland has four official languages at the federal level — name them.",
+  "questions": [
+    {
+      "text": "List the four official languages.",
+      "slots": [
+        { "accepted": ["German"] },
+        { "accepted": ["French"] },
+        { "accepted": ["Italian"] },
+        { "accepted": ["Romansh", "Romansch", "Rumantsch"] }
+      ]
+    }
+  ]
+}

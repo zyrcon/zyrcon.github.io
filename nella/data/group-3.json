@@ -1,0 +1,14 @@
+{
+  "id": "group-3",
+  "title": "State of matter",
+  "prompt": "Classify each substance by its most common state at room temperature.",
+  "categories": ["Solid", "Liquid", "Gas"],
+  "triples": [
+    ["Iron", "Solid", "Iron is a metal and remains solid at room temperature."],
+    ["Oxygen", "Gas", "Oxygen is diatomic gas (O2) under normal conditions."],
+    ["Mercury", "Liquid", "Mercury is a metal that is liquid at room temperature."],
+    ["Water", "Liquid", "Pure water is liquid at room temperature and pressure."],
+    ["Helium", "Gas", "Helium is a noble gas commonly used in balloons."],
+    ["Sodium chloride", "Solid", "Table salt forms a crystalline ionic solid."]
+  ]
+}

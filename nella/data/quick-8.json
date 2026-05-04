@@ -1,0 +1,15 @@
+{
+  "id": "quick-8",
+  "title": "History remixed",
+  "prompt": "Historic event names were scrambled. Write the correct event title.",
+  "pairs": [
+    ["The Tiny Leap for Mankind", "One Giant Leap for Mankind"],
+    ["The Fall of the East Wall", "The Fall of the Berlin Wall"],
+    ["The Cold Peace", "The Cold War"],
+    ["The First Global War", "The Second World War"],
+    ["Moonrise Landing", "Moon Landing"],
+    ["Industrial Pause", "Industrial Revolution"],
+    ["French Monarchy", "French Revolution"],
+    ["Age of Darkness", "Age of Enlightenment"]
+  ]
+}

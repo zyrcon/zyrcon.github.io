@@ -1,0 +1,15 @@
+{
+  "id": "quick-3",
+  "title": "Movie flip",
+  "prompt": "These movie titles are wrong on purpose. Type the correct title.",
+  "pairs": [
+    ["The Last Jedi", "The First Jedi"],
+    ["Night in Paris", "Midnight in Paris"],
+    ["The Slow and the Gentle", "The Fast and the Furious"],
+    ["Captain Canada", "Captain America"],
+    ["The Quiet Place", "A Quiet Place"],
+    ["Man of Iron", "Iron Man"],
+    ["War of the Worlds", "World War Z"],
+    ["How to Lose a Friend in 10 Days", "How to Lose a Guy in 10 Days"]
+  ]
+}

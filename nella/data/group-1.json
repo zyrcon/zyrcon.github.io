@@ -1,0 +1,14 @@
+{
+  "id": "group-1",
+  "title": "Diagnose this",
+  "prompt": "Please classify each illness by its underlying cause.",
+  "categories": ["Virus", "Bacteria"],
+  "triples": [
+    ["Cold sores", "Virus", "Herpes simplex virus (HSV-1). Despite the name, no relation to the common cold. HSV-1 is the oral strain; HSV-2 the genital, though either can occur in either location."],
+    ["COVID-19", "Virus", "The pandemic that triggered unprecedented worldwide lockdowns."],
+    ["Gonorrhea", "Bacteria", "Often called 'the clap', a common sexually transmitted infection."],
+    ["Lyme disease", "Bacteria", "Tick-borne illness commonly linked with a bullseye rash."],
+    ["Tuberculosis", "Bacteria", "Caused by Mycobacterium tuberculosis and mainly affects the lungs."],
+    ["Influenza", "Virus", "Seasonal flu is caused by influenza viruses (mostly A and B)."]
+  ]
+}

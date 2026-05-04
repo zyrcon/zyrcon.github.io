@@ -1,0 +1,21 @@
+{
+  "id": "quiz-7",
+  "title": "Around Germany",
+  "prompt": "Name all countries that share a land border with Germany.",
+  "questions": [
+    {
+      "text": "List each neighboring country.",
+      "slots": [
+        { "accepted": ["Denmark"] },
+        { "accepted": ["Poland"] },
+        { "accepted": ["Czech Republic", "Czechia"] },
+        { "accepted": ["Austria"] },
+        { "accepted": ["Switzerland"] },
+        { "accepted": ["France"] },
+        { "accepted": ["Luxembourg"] },
+        { "accepted": ["Belgium"] },
+        { "accepted": ["Netherlands", "Holland", "The Netherlands"] }
+      ]
+    }
+  ]
+}

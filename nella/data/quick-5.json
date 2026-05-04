@@ -1,0 +1,15 @@
+{
+  "id": "quick-5",
+  "title": "Book title remix",
+  "prompt": "Each classic book title is remixed. Write the correct one.",
+  "pairs": [
+    ["War and Quiet", "War and Peace"],
+    ["Pride and Hate", "Pride and Prejudice"],
+    ["To Kill a Sparrow", "To Kill a Mockingbird"],
+    ["The Lord of the Bracelets", "The Lord of the Rings"],
+    ["One Hundred Years of Joy", "One Hundred Years of Solitude"],
+    ["The Little Prince", "The Little Princess"],
+    ["Crime and Harmony", "Crime and Punishment"],
+    ["Great Regrets", "Great Expectations"]
+  ]
+}

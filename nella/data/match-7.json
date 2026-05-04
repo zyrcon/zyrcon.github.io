@@ -1,0 +1,13 @@
+{
+  "id": "match-7",
+  "title": "Currencies",
+  "prompt": "Connect each country with the name of its currency (common English usage).",
+  "pairs": [
+    ["India", "Rupee"],
+    ["Japan", "Yen"],
+    ["Mexico", "Peso"],
+    ["Russia", "Ruble"],
+    ["Switzerland", "Franc"],
+    ["United Kingdom", "Pound"]
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "match-3",
+  "title": "Baby animals",
+  "prompt": "Connect each adult animal with the usual English name for its young.",
+  "pairs": [
+    ["Cat", "Kitten"],
+    ["Deer", "Fawn"],
+    ["Dog", "Puppy"],
+    ["Duck", "Duckling"],
+    ["Horse", "Foal"],
+    ["Sheep", "Lamb"]
+  ]
+}

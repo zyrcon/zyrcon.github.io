@@ -1,0 +1,15 @@
+{
+  "id": "quick-2",
+  "title": "Opposite cities",
+  "prompt": "Each city name was twisted into an opposite. Enter the real city.",
+  "pairs": [
+    ["Old Dull", "New York"],
+    ["Weston", "Easton"],
+    ["Small Lake City", "Great Salt Lake City"],
+    ["Coldville", "Hot Springs"],
+    ["Lower Town", "Uptown"],
+    ["Slow Bay", "Fast Harbor"],
+    ["Dark Beach", "Sunny Beach"],
+    ["Dry River", "Wet River"]
+  ]
+}

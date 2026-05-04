@@ -1,0 +1,14 @@
+{
+  "id": "group-4",
+  "title": "Math class",
+  "prompt": "Classify each number set example into the narrowest listed category.",
+  "categories": ["Natural", "Integer", "Rational", "Irrational"],
+  "triples": [
+    ["12", "Natural", "12 is a counting number, so it is natural."],
+    ["-7", "Integer", "Negative whole numbers are integers but not natural numbers."],
+    ["3/5", "Rational", "A fraction of two integers is rational."],
+    ["pi", "Irrational", "Pi cannot be expressed as a ratio of integers."],
+    ["sqrt(2)", "Irrational", "The square root of 2 is irrational."],
+    ["0", "Integer", "0 is an integer; this quiz treats natural numbers as positive counting numbers."]
+  ]
+}

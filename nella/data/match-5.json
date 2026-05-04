@@ -1,0 +1,13 @@
+{
+  "id": "match-5",
+  "title": "Inventors",
+  "prompt": "Connect each person with what they are widely credited for helping create.",
+  "pairs": [
+    ["Alexander Graham Bell", "Telephone"],
+    ["James Watt", "Steam engine"],
+    ["Louis Pasteur", "Pasteurization"],
+    ["Marie Curie", "Radioactivity research"],
+    ["Nikola Tesla", "AC induction motor"],
+    ["Thomas Edison", "Practical light bulb"]
+  ]
+}

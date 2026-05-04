@@ -1,0 +1,14 @@
+{
+  "id": "group-2",
+  "title": "Programming languages",
+  "prompt": "Classify each language by its primary execution style.",
+  "categories": ["Compiled", "Interpreted"],
+  "triples": [
+    ["C", "Compiled", "C source is compiled directly to machine code for the target platform."],
+    ["Rust", "Compiled", "Rust uses ahead-of-time compilation to native binaries."],
+    ["Go", "Compiled", "Go compiles to native executables, often as a single binary."],
+    ["Python", "Interpreted", "Python is typically executed by an interpreter (CPython)."],
+    ["JavaScript", "Interpreted", "JavaScript is run by engines in browsers and runtimes like Node.js."],
+    ["Ruby", "Interpreted", "Ruby is generally executed by an interpreter such as MRI."]
+  ]
+}

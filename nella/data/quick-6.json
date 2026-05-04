@@ -1,0 +1,15 @@
+{
+  "id": "quick-6",
+  "title": "Science switch",
+  "prompt": "The science terms below are altered. Enter the correct term.",
+  "pairs": [
+    ["Photosadness", "Photosynthesis"],
+    ["Evaporain", "Evaporation"],
+    ["Condensmile", "Condensation"],
+    ["Mitosadness", "Mitosis"],
+    ["Gravitationless", "Gravitation"],
+    ["Thermocold", "Thermodynamics"],
+    ["Electromagnetweak", "Electromagnetism"],
+    ["Bioboring", "Biology"]
+  ]
+}

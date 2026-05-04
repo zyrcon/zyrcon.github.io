@@ -1,0 +1,15 @@
+{
+  "id": "quick-7",
+  "title": "Music terms",
+  "prompt": "These musical terms have been corrupted. Type the proper term.",
+  "pairs": [
+    ["Fortesad", "Fortissimo"],
+    ["Pianoloud", "Pianissimo"],
+    ["Legatobreak", "Legato"],
+    ["Staccatoflow", "Staccato"],
+    ["Tempozero", "Tempo"],
+    ["Allegroslow", "Allegro"],
+    ["Andantefast", "Andante"],
+    ["Crescendo-down", "Crescendo"]
+  ]
+}

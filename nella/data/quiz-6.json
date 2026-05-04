@@ -1,0 +1,20 @@
+{
+  "id": "quiz-6",
+  "title": "Solar family",
+  "prompt": "Name the eight planets of the Solar System in any order (Pluto not included).",
+  "questions": [
+    {
+      "text": "List all eight planets.",
+      "slots": [
+        { "accepted": ["Mercury"] },
+        { "accepted": ["Venus"] },
+        { "accepted": ["Earth"] },
+        { "accepted": ["Mars"] },
+        { "accepted": ["Jupiter"] },
+        { "accepted": ["Saturn"] },
+        { "accepted": ["Uranus"] },
+        { "accepted": ["Neptune"] }
+      ]
+    }
+  ]
+}

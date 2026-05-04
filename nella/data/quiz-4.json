@@ -1,0 +1,17 @@
+{
+  "id": "quiz-4",
+  "title": "Great Lakes",
+  "prompt": "Name the five Great Lakes of North America.",
+  "questions": [
+    {
+      "text": "List all five lakes.",
+      "slots": [
+        { "accepted": ["Lake Superior", "Superior"] },
+        { "accepted": ["Lake Michigan", "Michigan"] },
+        { "accepted": ["Lake Huron", "Huron"] },
+        { "accepted": ["Lake Erie", "Erie"] },
+        { "accepted": ["Lake Ontario", "Ontario"] }
+      ]
+    }
+  ]
+}

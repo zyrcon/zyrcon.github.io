@@ -1,0 +1,13 @@
+{
+  "id": "match-6",
+  "title": "Shapes & sides",
+  "prompt": "Connect each polygon with how many straight sides it has (answer as a digit).",
+  "pairs": [
+    ["Decagon", "10"],
+    ["Heptagon", "7"],
+    ["Hexagon", "6"],
+    ["Nonagon", "9"],
+    ["Pentagon", "5"],
+    ["Triangle", "3"]
+  ]
+}

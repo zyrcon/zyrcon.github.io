@@ -1,0 +1,14 @@
+{
+  "id": "group-7",
+  "title": "Renewable or not",
+  "prompt": "Classify each energy source as renewable or non-renewable.",
+  "categories": ["Renewable", "Non-renewable"],
+  "triples": [
+    ["Solar", "Renewable", "Sunlight is continually replenished."],
+    ["Wind", "Renewable", "Wind energy depends on natural atmospheric movement."],
+    ["Coal", "Non-renewable", "Coal forms over millions of years and is finite."],
+    ["Natural gas", "Non-renewable", "Fossil natural gas is a finite resource."],
+    ["Hydropower", "Renewable", "Moving water in the hydrologic cycle is replenished."],
+    ["Nuclear fission (uranium)", "Non-renewable", "Uranium ore is finite and mined from the earth."]
+  ]
+}

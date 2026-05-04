@@ -1,0 +1,13 @@
+{
+  "id": "match-1",
+  "title": "Capitals",
+  "prompt": "Connect each country with its capital.",
+  "pairs": [
+    ["Austria", "Vienna"],
+    ["Croatia", "Zagreb"],
+    ["France", "Paris"],
+    ["Italy", "Rome"],
+    ["Slovenia", "Ljubljana"],
+    ["Spain", "Madrid"]
+  ]
+}

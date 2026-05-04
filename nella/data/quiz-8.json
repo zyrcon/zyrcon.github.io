@@ -1,0 +1,28 @@
+{
+  "id": "quiz-8",
+  "title": "Seven summits",
+  "prompt": "The Seven Summits are the highest peaks on each continent — name those mountains.",
+  "questions": [
+    {
+      "text": "List all seven peaks (common English names accepted).",
+      "slots": [
+        { "accepted": ["Everest", "Mount Everest"] },
+        { "accepted": ["Aconcagua", "Mount Aconcagua"] },
+        { "accepted": ["Denali", "Mount McKinley", "McKinley"] },
+        { "accepted": ["Kilimanjaro", "Mount Kilimanjaro"] },
+        { "accepted": ["Elbrus", "Mount Elbrus"] },
+        { "accepted": ["Vinson Massif", "Mount Vinson", "Vinson"] },
+        {
+          "accepted": [
+            "Kosciuszko",
+            "Mount Kosciuszko",
+            "Kosciusko",
+            "Puncak Jaya",
+            "Carstensz Pyramid",
+            "Carstensz"
+          ]
+        }
+      ]
+    }
+  ]
+}

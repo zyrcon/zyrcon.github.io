@@ -1,0 +1,14 @@
+{
+  "id": "group-5",
+  "title": "Web protocol",
+  "prompt": "Classify each HTTP status code into its response class.",
+  "categories": ["2xx", "3xx", "4xx", "5xx"],
+  "triples": [
+    ["200 OK", "2xx", "Successful request."],
+    ["201 Created", "2xx", "Resource was successfully created."],
+    ["301 Moved Permanently", "3xx", "Permanent redirect to a new location."],
+    ["404 Not Found", "4xx", "Client requested a missing resource."],
+    ["429 Too Many Requests", "4xx", "Client hit a rate limit."],
+    ["503 Service Unavailable", "5xx", "Server temporarily cannot handle the request."]
+  ]
+}

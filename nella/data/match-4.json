@@ -1,0 +1,13 @@
+{
+  "id": "match-4",
+  "title": "Authors & novels",
+  "prompt": "Connect each author with one of their famous novels.",
+  "pairs": [
+    ["Austen", "Pride and Prejudice"],
+    ["Dickens", "Great Expectations"],
+    ["Orwell", "1984"],
+    ["Shelley", "Frankenstein"],
+    ["Tolstoy", "War and Peace"],
+    ["Tolkien", "The Lord of the Rings"]
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "quiz-3",
+  "title": "Baltic trio",
+  "prompt": "Name the three sovereign countries on the Baltic Sea that are commonly called the Baltic states.",
+  "questions": [
+    {
+      "text": "All three countries, please.",
+      "slots": [
+        { "accepted": ["Estonia"] },
+        { "accepted": ["Latvia"] },
+        { "accepted": ["Lithuania"] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "match-2",
+  "title": "Elements & symbols",
+  "prompt": "Connect each chemical element with its usual symbol.",
+  "pairs": [
+    ["Carbon", "C"],
+    ["Copper", "Cu"],
+    ["Gold", "Au"],
+    ["Iron", "Fe"],
+    ["Silver", "Ag"],
+    ["Sodium", "Na"]
+  ]
+}

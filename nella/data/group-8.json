@@ -1,0 +1,14 @@
+{
+  "id": "group-8",
+  "title": "Organ system",
+  "prompt": "Classify each body part by its main organ system.",
+  "categories": ["Nervous", "Digestive", "Respiratory", "Circulatory"],
+  "triples": [
+    ["Brain", "Nervous", "The brain is the central control organ of the nervous system."],
+    ["Stomach", "Digestive", "The stomach breaks down food with acid and enzymes."],
+    ["Lungs", "Respiratory", "Lungs exchange oxygen and carbon dioxide."],
+    ["Heart", "Circulatory", "The heart pumps blood through vessels."],
+    ["Small intestine", "Digestive", "Most nutrient absorption occurs here."],
+    ["Spinal cord", "Nervous", "The spinal cord carries signals between brain and body."]
+  ]
+}

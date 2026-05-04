@@ -1,0 +1,14 @@
+{
+  "id": "group-6",
+  "title": "Animals by diet",
+  "prompt": "Classify each animal by typical diet.",
+  "categories": ["Herbivore", "Carnivore", "Omnivore"],
+  "triples": [
+    ["Cow", "Herbivore", "Cows mainly eat grass and other plants."],
+    ["Lion", "Carnivore", "Lions are apex predators that eat other animals."],
+    ["Bear", "Omnivore", "Most bears eat both plants and animals."],
+    ["Rabbit", "Herbivore", "Rabbits primarily feed on vegetation."],
+    ["Eagle", "Carnivore", "Eagles hunt fish and small animals."],
+    ["Pig", "Omnivore", "Pigs can digest and consume both plant and animal matter."]
+  ]
+}

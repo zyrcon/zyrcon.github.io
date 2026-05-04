@@ -1,0 +1,15 @@
+{
+  "id": "quick-4",
+  "title": "Tech backwards",
+  "prompt": "Fix these reversed or twisted tech terms.",
+  "pairs": [
+    ["Softwhere", "Software"],
+    ["Hardeasy", "Hardware"],
+    ["Interwide web", "World Wide Web"],
+    ["Microhard", "Microsoft"],
+    ["Node.why", "Node.js"],
+    ["HyperText Makeout Language", "HyperText Markup Language"],
+    ["Cascading Plain Sheets", "Cascading Style Sheets"],
+    ["JavaSkip", "JavaScript"]
+  ]
+}

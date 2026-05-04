@@ -1,0 +1,13 @@
+{
+  "id": "match-8",
+  "title": "Planets & moons",
+  "prompt": "Connect each planet in the Solar System with one of its major moons.",
+  "pairs": [
+    ["Earth", "Moon"],
+    ["Jupiter", "Ganymede"],
+    ["Mars", "Phobos"],
+    ["Neptune", "Triton"],
+    ["Saturn", "Titan"],
+    ["Uranus", "Titania"]
+  ]
+}

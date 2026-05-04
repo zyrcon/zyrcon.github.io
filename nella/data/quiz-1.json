@@ -1,0 +1,18 @@
+{
+  "id": "quiz-1",
+  "title": "Hrvatska",
+  "prompt": "Name all countries that share a land border with Croatia.",
+  "questions": [
+    {
+      "text": "List every neighboring country (use common English names).",
+      "slots": [
+        { "accepted": ["Italy"] },
+        { "accepted": ["Slovenia"] },
+        { "accepted": ["Hungary"] },
+        { "accepted": ["Serbia"] },
+        { "accepted": ["Bosnia and Herzegovina", "Bosnia", "BiH"] },
+        { "accepted": ["Montenegro"] }
+      ]
+    }
+  ]
+}

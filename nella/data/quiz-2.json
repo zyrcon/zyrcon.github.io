@@ -1,0 +1,18 @@
+{
+  "id": "quiz-2",
+  "title": "Founding Six",
+  "prompt": "Which six countries were the original members of the European Economic Community (1957)?",
+  "questions": [
+    {
+      "text": "Name all six founding members.",
+      "slots": [
+        { "accepted": ["Belgium"] },
+        { "accepted": ["France"] },
+        { "accepted": ["West Germany", "Germany", "Federal Republic of Germany"] },
+        { "accepted": ["Italy"] },
+        { "accepted": ["Luxembourg"] },
+        { "accepted": ["Netherlands", "The Netherlands", "Holland"] }
+      ]
+    }
+  ]
+}
