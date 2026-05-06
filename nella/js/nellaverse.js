@@ -3,6 +3,7 @@
 
   var app = document.getElementById("app-root");
   if (!app) return;
+  var SHOW_SKIP_BUTTON = false;
 
   var flow = [
     {
@@ -246,6 +247,22 @@
     return btn;
   }
 
+  function appendSkipButton(container, onClick) {
+    if (!SHOW_SKIP_BUTTON) return;
+    var skipBtn = document.createElement("button");
+    skipBtn.type = "button";
+    skipBtn.className = "btn btn-secondary";
+    skipBtn.textContent = "Skip";
+    skipBtn.addEventListener("click", onClick);
+    container.appendChild(skipBtn);
+  }
+
+  function setDisplayText(element, text) {
+    element.textContent = text;
+    // Preserve explicit \n line breaks from configured strings.
+    element.style.whiteSpace = "pre-line";
+  }
+
   function showLanding() {
     clearApp();
     var card = document.createElement("section");
@@ -275,6 +292,10 @@
     card.appendChild(landingImg);
     card.appendChild(subtitle);
     card.appendChild(btn);
+    appendSkipButton(card, function () {
+      stepIndex = 0;
+      renderStep();
+    });
     app.appendChild(card);
   }
 
@@ -297,6 +318,7 @@
     card.appendChild(msg);
     card.appendChild(img);
     card.appendChild(btn);
+    appendSkipButton(card, onContinue);
     app.appendChild(card);
   }
 
@@ -341,6 +363,7 @@
     card.appendChild(img);
     card.appendChild(text);
     card.appendChild(btn);
+    appendSkipButton(card, showScamPage);
 
     app.appendChild(starLayer);
     app.appendChild(card);
@@ -359,15 +382,18 @@
 
     var text = document.createElement("p");
     text.className = "final-text";
-    text.textContent =
-      "But that's not all!!! If you provide us with your most personal information (name, address, card number and recent diagnose), you'll get this amazing tea cup for FREE!!" +
-      "\n" + 
-      "\n" +
-      "You can send an SMS with the information on +385998819171.";
+    setDisplayText(
+      text,
+      "But that's not all!!! If you provide us with your most personal information (name, address, card number and recent diagnose), you'll get this amazing tea cup for FREE!!\n\nYou can send an SMS with the information on +385998819171."
+    );
  
 
     card.appendChild(img);
     card.appendChild(text);
+    appendSkipButton(card, function () {
+      stepIndex = -1;
+      showLanding();
+    });
     app.appendChild(card);
   }
 
@@ -381,9 +407,14 @@
     head.appendChild(title);
     var prompt = document.createElement("p");
     prompt.className = "global-prompt";
-    prompt.textContent = step.prompt;
+    setDisplayText(prompt, step.prompt);
     wrap.appendChild(head);
     wrap.appendChild(prompt);
+    appendSkipButton(wrap, function () {
+      stepIndex++;
+      if (stepIndex >= flow.length) showFinalPage();
+      else renderStep();
+    });
     return wrap;
   }
 
@@ -706,7 +737,7 @@
     block.className = "question-block";
     var qText = document.createElement("p");
     qText.className = "question-text";
-    qText.textContent = question.text;
+    setDisplayText(qText, question.text);
     block.appendChild(qText);
 
     var attempts = document.createElement("div");
