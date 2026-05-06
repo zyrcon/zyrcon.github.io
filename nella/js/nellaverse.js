@@ -81,13 +81,14 @@
         {
           text: "Name all 7 Harry Potter books either in Croatian or English.",
           slots: [
-            { accepted: ["Philosopher's Stone", "Kamen mudraca"] },
-            { accepted: ["Chamber of Secrets", "Odaja tajni"] },
-            { accepted: ["Prisoner of Azkaban", "Zatočenik Azkabana"] },
-            { accepted: ["Goblet of Fire", "Plameni pehar"] },
-            { accepted: ["Order of the Phoenix", "Red feniksa"] },
-            { accepted: ["Half-Blood Prince", "Princ miješane krvi"] },
-            { accepted: ["Deathly Hallows", "Darovi smrti"] },
+            { accepted: ["Philosopher's Stone", "Kamen mudraca", "ž1"] },
+            { accepted: ["Chamber of Secrets", "Odaja tajni", "ž2"] },
+            { accepted: ["Prisoner of Azkaban", "Zatočenik Azkabana", "ž3"] },
+            { accepted: ["Goblet of Fire", "Plameni pehar", "ž4"] },
+            { accepted: ["Order of the Phoenix", "Red feniksa", "ž5"] },
+            { accepted: ["Half-Blood Prince", "Princ miješane krvi", "ž6"] },
+            { accepted: ["Deathly Hallows", "Darovi smrti", "ž7"] },
+       
           ],
         },
       ],
@@ -105,8 +106,14 @@
       questions: [
         {
           text: "Name the 4 ingredients for the souffle:",
-          slots: [{ accepted: ["Cheese"] }, { accepted: ["Milk"] }, { accepted: ["Egg", "Eggs"] }, { accepted: ["Butter"] }],
+          slots: [
+            { accepted: ["Cheese", "ž1"] },
+            { accepted: ["Milk", "ž2"] },
+            { accepted: ["Egg", "Eggs", "ž3"] },
+            { accepted: ["Butter", "ž4"] }
+          ],
         },
+   
       ],
       reward: {
         text: "Awesome! You have won this gift!",
@@ -171,18 +178,36 @@
         {
           text: "Name 6 main characters from The Real Housewives of Salt Lake City (Season 1).",
           slots: [
-            { accepted: ["Lisa Barlow", "Lisa"] },
-            { accepted: ["Mary Cosby", "Mary"] },
-            { accepted: ["Heather Gay", "Heather"] },
-            { accepted: ["Meredith Marks", "Meredith"] },
-            { accepted: ["Whitney Rose", "Whitney"] },
-            { accepted: ["Jen Shah", "Jen"] },
+            { accepted: ["Lisa Barlow", "Lisa", "ž1"] },
+            { accepted: ["Mary Cosby", "Mary", "ž2"] },
+            { accepted: ["Heather Gay", "Heather", "ž3"] },
+            { accepted: ["Meredith Marks", "Meredith", "ž4"] },
+            { accepted: ["Whitney Rose", "Whitney", "ž5"] },
+            { accepted: ["Jen Shah", "Jen", "ž6"] },
+       
           ],
         },
       ],
       reward: {
         text: "Bravo! You have won this gift!",
         image: "media/8.jpg",
+        button: "Click here for more gifts!",
+      },
+    },
+    {
+      type: "quiz",
+      id: "quiz-4",
+      title: "Meowsical question",
+      prompt: "Since this day has to be purrfect, I got the best final task for you. Finish the lyrics:",
+      questions: [
+        {
+          text: "Meow meow meow meow,\nmeow meow meow meow meow.\nMeow meow meow meow,\nMeow meow meow meow _____,",
+          slots: [{ accepted: ["meow", "ž1"] }],
+        },
+      ],
+      reward: {
+        text: "Purrfect! You have won this final gift!",
+        image: "media/9.jpg",
         button: "Click here for the final page!",
       },
     },
@@ -228,12 +253,17 @@
 
     var h1 = document.createElement("h1");
     h1.className = "nella-title";
-    h1.textContent = "Whealcum Nella";
+    h1.textContent = "HAPPY BIRTHDAY FREEEEN <3";
+
+    var landingImg = document.createElement("img");
+    landingImg.className = "gift-image";
+    landingImg.src = "media/0.jpeg";
+    landingImg.alt = "Birthday intro image";
 
     // Add subtitle below the title, above the button
     var subtitle = document.createElement("div");
     subtitle.className = "nella-subtitle";
-    subtitle.textContent = "I promise you this will last longer than 2 seconds ;)";
+    subtitle.textContent = "I'm so happy your frontal lobe is developing, so it's time for earning gifts by answering questions! I promise you this will last longer than 2 seconds ;)";
     subtitle.style.textAlign = "center";
 
     var btn = makePrimaryButton("Click here to enter the Nellaverse", function () {
@@ -242,6 +272,7 @@
     });
 
     card.appendChild(h1);
+    card.appendChild(landingImg);
     card.appendChild(subtitle);
     card.appendChild(btn);
     app.appendChild(card);
@@ -291,26 +322,52 @@
 
     var img = document.createElement("img");
     img.className = "gift-image";
-    img.src = "media/9.jpg";
+    img.src = "media/10.jpg";
     img.alt = "Final gift image";
 
     var text = document.createElement("p");
     text.className = "final-text";
     text.textContent =
-      "You made it! you have all the answeres in the world! You won this fair and square!";
+      "You made it! You have all the answeres in the world! You won this fair and square!";
 
     var btn = document.createElement("button");
     btn.type = "button";
     btn.className = "final-scam-btn";
-    btn.textContent = "CLICK ON THE BUTTON BELOW TO SEND YOUR GIFT!";
+    btn.textContent = "CLICK HERE TO SEND YOUR GIFT!";
     btn.appendChild(document.createElement("br"));
-    btn.appendChild(document.createTextNode("totally not a scam!!!"));
+    btn.appendChild(document.createTextNode("(totally not a scam!!!)"));
+    btn.addEventListener("click", showScamPage);
 
     card.appendChild(img);
     card.appendChild(text);
     card.appendChild(btn);
 
     app.appendChild(starLayer);
+    app.appendChild(card);
+  }
+
+  function showScamPage() {
+    clearApp();
+
+    var card = document.createElement("section");
+    card.className = "nella-card gift-card";
+
+    var img = document.createElement("img");
+    img.className = "gift-image";
+    img.src = "media/11.jpeg";
+    img.alt = "Tea cup gift image";
+
+    var text = document.createElement("p");
+    text.className = "final-text";
+    text.textContent =
+      "But that's not all!!! If you provide us with your most personal information (name, address, card number and recent diagnose), you'll get this amazing tea cup for FREE!!" +
+      "\n" + 
+      "\n" +
+      "You can send an SMS with the information on +385998819171.";
+ 
+
+    card.appendChild(img);
+    card.appendChild(text);
     app.appendChild(card);
   }
 
