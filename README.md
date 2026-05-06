@@ -1,0 +1,1 @@
+Za spremit ovu stranicu klikni gore na drop down strlicu kod zelene tipke "Code" i onda "download ZIP". Zanima te samo folder "nella" ova druga dva fajla su tu da bi online stranica radila. Za lokalno (na svom kompu bez interneta) pokrenut stranicu (igru) otvori file 'index.html'.
